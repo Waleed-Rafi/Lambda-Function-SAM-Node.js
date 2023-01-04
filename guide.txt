@@ -1,0 +1,13 @@
+How to run locally?
+
+sam local invoke FunctionName
+sam local invoke FunctionName -e events/eventName.json
+
+How to build?
+
+sam build (use this after making any change)
+
+How to deploy?
+
+sam deploy --guided (for first deploy) else
+sam deploy
